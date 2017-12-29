@@ -1,0 +1,24 @@
+{
+    "name": "lg-xenos/yii2-recaptcha",
+    "description": "Yii2 Component-widget Google recaptcha",
+    "keywords": ["yii2", "captcha", "recaptcha", "google", "widget"],
+    "type": "yii2-extension",
+    "support": {
+        "source": "https://github.com/lgxenos/yii2-recaptcha",
+        "issues": "https://github.com/lgxenos/yii2-recaptcha/issues"
+    },
+    "authors": [
+        {
+            "name": "RomanSh",
+            "homepage": "https://github.com/lgxenos/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lgxenos\\yii2\\recaptcha\\": ""
+        }
+    }
+}
