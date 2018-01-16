@@ -112,8 +112,8 @@ class ReCaptcha extends InputWidget {
 			'id' => $this->inputId . '-recaptcha'
 		];
 
-		if (isset($this->widgetOptions['class'])) {
-			$divOptions['class'] = "{$divOptions['class']} {$this->widgetOptions['class']}";
+		if (array_key_exists('class', $this->widgetOptions)) {
+			$divOptions['class'] = "{$this->widgetOptions['class']}";
 		}
 		$divOptions = $divOptions + $this->widgetOptions;
 
